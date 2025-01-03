@@ -1,0 +1,75 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);  
+}
+.detail__container{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+    flex-direction: column;
+
+
+}
+
+.detail__container__box{
+    width: 30rem;
+}
+
+.detail__container__img{
+    display: flex;
+    width: 30rem;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-radius: 50px 50px 0px 0px;
+
+}
+.detail__container__img > .pokebola__img{
+    width: 168px;
+    height: 140px;
+    filter: opacity(0.5);
+
+
+}
+
+.detail__container__img > .pokemon__img{
+    width: 150px;
+    height: 90px;
+    position: relative;
+    transition: transform .8s;
+
+
+}
+.detail__container__img > .pokemon__img:hover{
+
+  transform: scale(1.1);
+
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  th, td {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  .sprite {
+    text-align: center;
+  }
+  .sprite img {
+    max-width: 100px;
+  }

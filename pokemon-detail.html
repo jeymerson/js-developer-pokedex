@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="assets/css/detail.css">
+    <link rel="stylesheet" href="assets/css/pokemon-color.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div id="detailContainer" class="detail__container">
+      <div id="detailImage" class="detail__container__img">
+          <img class="pokemon__img" src="" alt="">
+          <img class="pokebola__img" src="docs/pokebol png.png" alt="Pokebola">
+      </div>
+      <div class="detail__container__box">
+          <table>
+              <thead>
+                  <tr>
+                      <th colspan="2" id="pokemonName">Pokémon</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>ID</td>
+                      <td id="pokemonId"></td>
+                  </tr>
+                  <tr>
+                      <td>Nome</td>
+                      <td id="pokemonNameRow"></td>
+                  </tr>
+                  <tr>
+                      <td>Altura</td>
+                      <td id="pokemonHeight"></td>
+                  </tr>
+                  <tr>
+                      <td>Peso</td>
+                      <td id="pokemonWeight"></td>
+                  </tr>
+                  <tr>
+                      <td>Experiência Base</td>
+                      <td id="pokemonBaseExperience"></td>
+                  </tr>
+                  <tr>
+                      <td>Tipos</td>
+                      <td id="pokemonTypes"></td>
+                  </tr>
+                  <tr>
+                      <td>Habilidades</td>
+                      <td id="pokemonAbilities"></td>
+                  </tr>
+                  <tr>
+                      <td>Estatísticas</td>
+                      <td id="pokemonStats">
+                          <ul></ul>
+                      </td>
+                  </tr>
+                  <tr class="sprite">
+                      <td>Imagem</td>
+                      <td>
+                          <img id="pokemonSprite" src="" alt="Sprite do Pokémon">
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+
+  <script src="./assets/js/poke-api.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/pokemon-detail.js"></script>
+</body>
+</html>
