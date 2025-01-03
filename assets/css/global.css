@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 627a1ca6aebeb81b88429225fe0a5754e6a58a33
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 body{
     background-color: #f6f8fc;
 }
@@ -16,13 +20,33 @@ body{
 }
 @media screen and (min-widht: 992px){
     .content{
+=======
+
+body {
+    background-color: #f6f8fc;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+>>>>>>> 627a1ca6aebeb81b88429225fe0a5754e6a58a33
         max-width: 992px;
         height: auto;
         margin: 1rem auto;
         border-radius: 1rem;
     }
+<<<<<<< HEAD
 
 }
 .content h1 {
     margin: 0;
 }
+=======
+}
+>>>>>>> 627a1ca6aebeb81b88429225fe0a5754e6a58a33
